@@ -39,6 +39,40 @@
     let greeting = greetingIntro + " " + name;
     
     console.log(greeting);
-  </script>
+
+    /* MATH */
+
+    console.log("Using functions:");
+
+    // function to make square numbers
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(81);
+    console.log(try01);
+
+    /* On my own */
+
+    function makeName(firstName, middleName, lastName) {
+      let fullName = firstName + ' ' + middleName + ' ' + lastName;
+      return fullName;
+    }
+
+    let nameBeto = makeName(
+      "Robert",
+      '"Beto"',
+      "O'Rourke");
+    console.log(nameBeto);
+
+    let nameBeyonce = makeName ("Beyonce", "Gizelle", "Knowles");
+    console.log(nameBeyonce);
+
+    let nameJFK = makeName("John", "Fitzgerald", "Kennedy");
+    console.log(nameJFK);
+    // rip
+
+    </script>
 </body>
 </html>
